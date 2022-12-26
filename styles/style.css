@@ -6,3 +6,90 @@ Green: #00B172
 White: #FFF
 
 */
+
+.container {
+    position: relative;
+}
+#landingImg {
+    width: 1900px;
+    height: 1000px;
+}
+
+.landingTxt {
+    /* position: relative; */
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 37px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.logo{
+    width: 10%;
+    padding: 10px;
+    
+    
+}
+
+.navMenu {
+    float: right;
+    padding: 30px;
+    
+}
+.navMenu a {
+    padding: 30px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #1A1A1A;
+} 
+
+.what {
+    font-size: 55px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+.containerAd {
+    
+display: flex;
+padding: 50px;
+
+}
+.musicIcon {
+    
+    display:inline;
+width: 430px;
+margin: auto;
+padding: 20px;
+text-align: center;
+/* display: flex; */
+}
+.containerAd  h1 {
+margin : 0px;
+/* display: flex; */
+}
+
+.wavesIcon {
+    display:inline;
+    width: 490px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    /* display: flex; */
+}
+
+.deviceIcon {
+    display:inline;
+    width: 460px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    /* display: flex; */
+
+}
