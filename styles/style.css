@@ -7,6 +7,10 @@ White: #FFF
 
 */
 
+html {
+    font-family: 'Montserrat';
+}
+
 .container {
     position: relative;
 }
@@ -92,4 +96,58 @@ margin : 0px;
     text-align: center;
     /* display: flex; */
 
+}
+
+.greenDiv {
+    height: 900px;
+    background-color: #1DB954 ;
+    color: white;
+}
+
+.greenDiv h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    float: left;
+    margin: 100px 100px 90px;
+    letter-spacing: 10px;
+    bottom: 5px;
+}
+
+.greenDiv  h2, p {
+    font-size: 20px;
+    margin-left: 130px;
+    padding: 15px;
+    width: 300px;
+    display: block;
+    
+}
+.spotifyWhteLogo {
+    margin-top: -450px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.spotyAppImg {
+    float: right;
+    margin-right: 180px;
+    margin-top: -430px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#spotifyWhteLogo {
+    margin: 0 auto;
+    width: 200px; 
+}
+#spotyAppImg {
+    width: 400px;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
 }
