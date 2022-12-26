@@ -29,7 +29,12 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+
     
+}
+.landingTxt p {
+    width: 600px;
+    margin-left: 20px;
 }
 
 .logo{
@@ -69,10 +74,12 @@ padding: 50px;
     
     display:inline;
 width: 430px;
-margin: auto;
 padding: 20px;
 text-align: center;
 /* display: flex; */
+}
+.musicIcon p {
+    margin-left: 50px;
 }
 .containerAd  h1 {
 margin : 0px;
@@ -87,6 +94,9 @@ margin : 0px;
     text-align: center;
     /* display: flex; */
 }
+.wavesIcon p {
+    margin-left: 80px;
+}
 
 .deviceIcon {
     display:inline;
@@ -96,6 +106,9 @@ margin : 0px;
     text-align: center;
     /* display: flex; */
 
+}
+.deviceIcon p {
+    margin-left: 68px;
 }
 
 .greenDiv {
